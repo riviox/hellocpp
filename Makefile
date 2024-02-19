@@ -8,6 +8,8 @@ all: $(SOURCES) $(EXECUTABLE)
 
 install:
 	$(CXX) $(CXXFLAGS) $(SOURCES) -o $(EXECUTABLE)
+	chmod +x $(EXECUTABLE)
+	./$(EXECUTABLE)
 
 clean:
 	rm -f $(EXECUTABLE)
