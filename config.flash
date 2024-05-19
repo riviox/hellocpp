@@ -1,1 +1,4 @@
+name=Hello Cpp
+desc=example package
 exec=make install
+deps=gcc
